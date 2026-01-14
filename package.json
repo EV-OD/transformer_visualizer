@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://ev-od.github.io/transformer_visualizer",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
