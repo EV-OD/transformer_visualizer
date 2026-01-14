@@ -1,0 +1,5 @@
+{
+  "name": "Transformer Architecture Visualization",
+  "description": "A high-fidelity, interactive visualization of the Transformer architecture, featuring vector embeddings, multi-head attention, and feed-forward networks.",
+  "requestFramePermissions": []
+}
