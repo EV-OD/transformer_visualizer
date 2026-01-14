@@ -57,6 +57,25 @@ pnpm dev
 - Theme and visuals are driven by CSS/variables in the codebase — search for `constants.ts` to adjust colors or sizing.
 - Add new stage components under `components/stages/` and register them in the relevant visual flows.
 
+## Deploying to GitHub Pages
+
+- This repository includes a `deploy` script that builds the app and publishes the `dist` folder to the `gh-pages` branch using the `gh-pages` CLI.
+
+1. Ensure `gh-pages` is installed (already added as a dev dependency):
+
+```bash
+pnpm install
+```
+
+2. Deploy the current build to GitHub Pages:
+
+```bash
+pnpm deploy
+```
+
+- The site will be published to the `gh-pages` branch. Your GitHub Pages URL will typically be `https://<your-username>.github.io/<your-repo>` for a project page. If you want a custom path, set the `homepage` field in `package.json` before deploying.
+
+
 ## License & Contact
 
 This project is provided as-is. If you have questions, feature requests, or want to collaborate, open an issue or contact the maintainer.
